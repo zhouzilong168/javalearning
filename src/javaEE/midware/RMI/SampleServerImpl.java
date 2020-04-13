@@ -44,9 +44,9 @@ public class SampleServerImpl extends UnicastRemoteObject implements SampleServe
             // 创建远程对象实例
             SampleServerImpl server = new SampleServerImpl();
             // 加入远程对象实例到命名接口注册
-            Naming.bind("SAMPLE-SERVER", server);
+            Naming.rebind("SAMPLE-SERVER", server);
             System.out.println("remote server is waiting......");
-        } catch (RemoteException | AlreadyBoundException | MalformedURLException e) {
+        } catch (RemoteException | MalformedURLException e) {
             e.printStackTrace();
         }
     }

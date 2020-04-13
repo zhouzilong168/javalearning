@@ -1,4 +1,4 @@
-package javaele.proxy;
+package javaSE.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

@@ -1,7 +1,7 @@
-package sort.simple;
+package algorithm.sort.simple;
 
 import org.junit.Test;
-import sort.SortUtils;
+import algorithm.sort.SortUtils;
 
 /**
  * @ClassName Choose

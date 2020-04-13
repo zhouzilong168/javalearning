@@ -1,4 +1,4 @@
-package sort.simple;
+package algorithm.sort.simple;
 
 /**
  * 桶排序，非比较排序

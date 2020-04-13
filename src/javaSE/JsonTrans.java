@@ -1,7 +1,7 @@
 package javaSE;
 
 import org.junit.Test;
-import sort.SortUtils;
+import algorithm.sort.SortUtils;
 
 import java.util.Arrays;
 

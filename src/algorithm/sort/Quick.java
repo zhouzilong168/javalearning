@@ -1,8 +1,7 @@
-package sort;
+package algorithm.sort;
 
 import javafx.util.Pair;
 import org.junit.Test;
-import sort.simple.Insert;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,7 +1,6 @@
-package sort;
+package algorithm.sort;
 
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 /**
  * @ClassName SortUtils

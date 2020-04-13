@@ -3,7 +3,6 @@ package datastructure;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 /**
  * @ClassName Traversal
@@ -15,6 +14,53 @@ import java.util.Stack;
 public class Traversal<T> {
 
     // sovle some problem
+
+    /**
+     * 按层次逆序分层输出，利用两个队列
+     *
+     * @param root
+     */
+    public int LevelOrderTraveralInReversePlus(BinaryTree root) {
+        if (root == null) {
+            return 0;
+        }
+        // 利用队列后入先出的特性实现层次遍历
+        int level = 0; // 计算层次
+        Queue<BinaryTree> queue = new LinkedList<>();
+        Deque<BinaryTree> stack = new LinkedList<>(); // 栈实现逆序
+        queue.offer(root);
+        queue.offer(null); // 第一层遍历完毕
+        while (!queue.isEmpty()) {
+            root = queue.poll();
+            stack.push(root);
+            if (root == null) { // 插入null值分隔层次 当前层遍历完毕 插入null分隔新层
+                if (!queue.isEmpty()) {
+                    stack.push(null);
+                    queue.offer(null);
+                    level++;
+                }
+            } else {
+                System.out.print(root.getData() + " ");
+                if (root.getLeft() != null) {
+                    queue.offer(root.getLeft());
+                }
+                if (root.getRight() != null) {
+                    queue.offer(root.getRight());
+                }
+            }
+        }
+        System.out.println();
+        // 利用栈后入先出的特性，实现逆序输出，null值分隔层次
+        while (!stack.isEmpty()) {
+            if (stack.peek() == null) {
+                stack.pop();
+                System.out.println();
+            } else {
+                System.out.print(stack.pop().getData() + " ");
+            }
+        }
+        return level;
+    }
 
     /**
      * 按层次逆序分层输出，利用两个队列

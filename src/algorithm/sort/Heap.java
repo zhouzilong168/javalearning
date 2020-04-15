@@ -26,6 +26,7 @@ public class Heap {
      */
     public static void heapSort(int[] array) {
         maxHeap(array); // 堆化
+        SortUtils.printInts(array);
         for (int n = array.length - 1; n > 0; n--) {
             SortUtils.swap(array, 0, n);
             maxHeapDown(array, 0, n - 1);

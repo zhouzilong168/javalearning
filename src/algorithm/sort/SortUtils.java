@@ -11,6 +11,7 @@ import java.lang.reflect.InvocationTargetException;
  **/
 public class SortUtils {
     private static int[] array = {12, 45, 67, 10, 98, 46, 79, 12, 12, 45, 12, 53, 13};
+    //private static int[] array = {45,78,57,25,41,89};
 
     public static void swap(int[] array, int i, int j) {
 /*        array[i]^=array[j];

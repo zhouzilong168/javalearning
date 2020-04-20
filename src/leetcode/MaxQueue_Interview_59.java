@@ -7,18 +7,18 @@ import java.util.Deque;
 import java.util.Queue;
 
 /**
- * @ClassName MaxQueue_Interview59
+ * @ClassName MaxQueue_Interview_59
  * @Description TODO leetCode 面试题59-II 队列最大值
  * @Author thinkpad
  * @Date 2020/3/18 11:46
  * @Version 1.0
  **/
-public class MaxQueue_Interview59 {
+public class MaxQueue_Interview_59 {
 
     private Queue<Integer> queue;
     private Deque<Integer> deque;
 
-    public MaxQueue_Interview59() {
+    public MaxQueue_Interview_59() {
         queue = new ArrayDeque<>();
         deque = new ArrayDeque<>();
     }
@@ -51,7 +51,7 @@ public class MaxQueue_Interview59 {
 
     @Test
     public void test01() {
-        MaxQueue_Interview59 maxQueueInterview59 = new MaxQueue_Interview59();
+        MaxQueue_Interview_59 maxQueueInterview59 = new MaxQueue_Interview_59();
         maxQueueInterview59.push_back(9);
         System.out.println(maxQueueInterview59.max_value());
         maxQueueInterview59.push_back(5);

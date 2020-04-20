@@ -128,15 +128,12 @@ public class Traversal<T> {
         }
         // 用栈保存遍历过已访问的节点，当遍历到最左的时候弹出以便访问右节点
         stack.clear();
-        while (true) {
+        while (root != null || !stack.isEmpty()) {
             while (root != null) {
                 System.out.print(root.getData() + " "); // 直接遍历当前根
                 stack.push(root); // 保存根用于访问右节点
                 root = root.getLeft(); // “递归”寻找左节点
-            }
-            if (stack.isEmpty()) { // 栈中为空，则说明所有遍历过的根节点为空，root也遍历到null了，遍历完了
-                break;
-            }
+            }// 栈中为空，则说明所有遍历过的根节点为空，root也遍历到null了，遍历完了
             root = stack.pop().getRight(); // 获得根节点去得到右节点右子树
         }
     }
@@ -156,13 +153,10 @@ public class Traversal<T> {
         }
         // 用栈保存遍历过为访问的节点，后期弹栈，遍历再获取右节点
         stack.clear();
-        while (true) {
+        while (root != null || !stack.isEmpty()) {
             while (root != null) {
                 stack.push(root); // 左节点先与根节点访问，则先入栈后期弹栈访问，然后获得右节点
                 root = root.getLeft(); // ”递归“寻找最左的节点先访问
-            }
-            if (stack.isEmpty()) {
-                break;
             }
             root = stack.pop(); // 弹栈访问根节点
             System.out.print(root.getData() + " ");

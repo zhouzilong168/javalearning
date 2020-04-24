@@ -14,14 +14,16 @@ import java.sql.Connection;
 public class VariableType {
     static String a = "He";
     static String b = "llo";
-    //    static final String a;
-//    static final String b;
-//    static{
-//        a="He";
-//        b="llo";
-//    }
-//    static final String a = "He";
-//    static final String b = "llo";
+    /*
+        static final String a;
+        static final String b;
+        static{
+            a="He";
+            b="llo";
+        }
+        static final String a = "He";
+        static final String b = "llo";
+    */
     final String aa = "He";
     final String bb = "llo";
 

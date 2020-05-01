@@ -15,4 +15,17 @@ public class Test<T> {
         BinaryTree root = new BinaryTree().arrayToBinaryTree((T[]) array);
         t.postOrderNonRecursion(root);
     }
+
+    @org.junit.Test
+    public void test() {
+        BinaryTree_Parent p = new BinaryTree_Parent();
+        BinaryTree_Parent root = p.init_order();
+        p.levelOrder(root);
+        System.out.println();
+        p.judge_level(root, 7, 1);
+        p.judge_level(root, 7, 2);
+        p.judge_level(root, 7, 3);
+        p.judge_level(root, 7, 4);
+        p.judge_level(root, 7, 0);
+    }
 }

@@ -1,4 +1,4 @@
-package written_interview.others;
+package written_interview;
 
 import java.util.Iterator;
 import java.util.LinkedList;

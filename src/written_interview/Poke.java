@@ -1,4 +1,4 @@
-package written_interview.others;
+package written_interview;
 
 import org.junit.Test;
 

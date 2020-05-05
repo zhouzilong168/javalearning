@@ -1,4 +1,4 @@
-package test;
+package javaSE;
 
 /**
  * @ClassName Optimize_compile

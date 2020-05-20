@@ -23,8 +23,8 @@ public class Number_Format {
         nformat.setMaximumFractionDigits(2); // 保留两位小数
         nformat.setRoundingMode(RoundingMode.UP); // 四舍五入
         System.out.println(nformat.format(d));
-        // way3 DecimalFormat
-        DecimalFormat dFormat = new DecimalFormat("#.00");
+        // way3 DecimalFormat 0 # . - , E %
+        DecimalFormat dFormat = new DecimalFormat("#.000");
         System.out.println(dFormat.format(d));
         // way4 String.format
         System.out.println(String.format("%.2f", d));

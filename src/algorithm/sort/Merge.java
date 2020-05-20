@@ -20,6 +20,7 @@ public class Merge {
     最好：O(nlogn)
     最坏：O(nlogn)
     空间：O(n)
+    稳定排序
      */
     public void sortByMerge(int[] array, int from, int to) {
         mergeByRecursion(array, from, to - 1);

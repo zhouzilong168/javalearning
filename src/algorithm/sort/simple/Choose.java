@@ -16,6 +16,7 @@ public class Choose {
     最好：O(n2)
     最坏：O(n2)
     空间：O(1)
+    不稳定
      */
     // 原地排序 适用于键值小文件大的文件 少的空间复制
     public static void chooseSort(int[] array) {

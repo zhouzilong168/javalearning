@@ -1,7 +1,7 @@
 # javalearning
 
 on the way learning java
-The code and notes for learning java, including java basic knowledge, data structure and algorithm, leetcode programming questions, and so on
+The code and notes for learning java, including java basic knowledge, data structure and algorithm, algorithm.leetcode programming questions, and so on
 
 学习java过程中的代码和笔记，包括java基础知识，数据结构与算法，LeetCode编程题及各厂笔试面试题，以及其他测试。
 
@@ -41,9 +41,9 @@ datastructure:
     
     BinaryTree（二叉树）：ADT，前中后序遍历，层次遍历
     
-leetcode:
+algorithm.leetcode:
 
-    https://github.com/zhouzilong168/javalearning/tree/master/src/leetcode
+    https://github.com/zhouzilong168/javalearning/tree/master/src/algorithm.leetcode
     
 written_interview:
     

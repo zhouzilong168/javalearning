@@ -16,6 +16,7 @@ public class Shell {
     最好：O(nlogn)
     最坏：O(n2)
     空间：O(1)
+    不稳定的
      */
     public static void shellSort(int[] array) {
         // 定义间隔

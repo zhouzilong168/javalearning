@@ -1,4 +1,4 @@
-package leetcode;
+package algorithm.leetcode;
 
 /**
  * @ClassName Palindrome_5_Fastest

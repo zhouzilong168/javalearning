@@ -19,6 +19,7 @@ public class Bubble {
     最好：O(n2) O(n)[改进]
     最坏：O(n2)
     空间：O(1)
+    稳定
      */
 
     /**

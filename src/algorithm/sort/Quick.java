@@ -20,6 +20,7 @@ public class Quick {
     最好：O(nlogn)
     最坏：O(n2)
     空间：O(1)
+    不稳定
      */
     // 优化 三数中值法 处理重复元素可用三指针也可直接位移指针去中间
     private static void quickSortR(int[] array, int low, int high) {

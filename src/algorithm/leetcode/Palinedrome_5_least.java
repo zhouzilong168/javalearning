@@ -1,4 +1,4 @@
-package leetcode;
+package algorithm.leetcode;
 
 /**
  * @ClassName Palinedrome_5_least

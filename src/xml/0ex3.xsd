@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="GB2312"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+    <!-- 基本信息-->
+    <xs:element name="姓名" type="xs:string"/>
+    <xs:element name="性别">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="男"/>
+                <xs:enumeration value="女"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="籍贯" type="xs:string"/>
+    <xs:element name="出生日期">
+        <xs:simpleType>
+            <xs:restriction base="xs:date">
+                <xs:minInclusive value="1970-01-01"/>
+                <xs:maxInclusive value="1990-01-01"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="婚姻状况">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="已婚"/>
+                <xs:enumeration value="未婚"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="健康状况" type="xs:string"/>
+    <xs:element name="学历" type="xs:string"/>
+    <xs:element name="毕业学校" type="xs:string"/>
+    <xs:element name="工作年限" type="xs:string"/>
+    <xs:element name="联系电话" type="xs:string"/>
+    <xs:element name="联系地址" type="xs:string"/>
+    <xs:element name="EMail" type="xs:string"/>
+    <xs:group name="baseInfoGroup">
+        <xs:sequence>
+            <xs:element ref="姓名"/>
+            <xs:element ref="性别"/>
+            <xs:element ref="籍贯"/>
+            <xs:element ref="出生日期"/>
+            <xs:element ref="婚姻状况"/>
+            <xs:element ref="健康状况"/>
+            <xs:element ref="学历"/>
+            <xs:element ref="毕业学校"/>
+            <xs:element ref="工作年限"/>
+            <xs:element ref="联系电话"/>
+            <xs:element ref="联系地址"/>
+            <xs:element ref="EMail"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:complexType name="baseInfoType">
+        <xs:group ref="baseInfoGroup"/>
+    </xs:complexType>
+    <xs:element name="基本信息" type="baseInfoType"/>
+    <!-- 教育经历-->
+    <xs:element name="开始时间" type="xs:date"/>
+    <xs:element name="终止时间" type="xs:date"/>
+
+    <xs:element name="院校名称" type="xs:string"/>
+
+    <xs:element name="专业" type="xs:string"/>
+
+    <xs:group name="educateGroup">
+
+        <xs:sequence>
+
+            <xs:element ref="开始时间"/>
+
+            <xs:element ref="终止时间"/>
+
+            <xs:element ref="院校名称"/>
+
+            <xs:element ref="专业"/>
+
+            <xs:element ref="学历"/>
+
+        </xs:sequence>
+
+    </xs:group>
+
+    <xs:complexType name="educateType">
+
+        <xs:sequence>
+
+            <xs:group ref="educateGroup"/>
+
+        </xs:sequence>
+
+    </xs:complexType>
+
+    <xs:element name="教育经历" type="educateType"/>
+
+    <xs:element name="教育">
+
+        <xs:complexType>
+
+            <xs:sequence maxOccurs="unbounded">
+
+                <xs:element ref="教育经历"/>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+    <!--工作经历-->
+
+    <xs:element name="公司名称" type="xs:string"/>
+
+    <xs:element name="职位" type="xs:string"/>
+
+    <xs:element name="职位描述" type="xs:string"/>
+
+    <xs:group name="jobGroup">
+
+        <xs:sequence>
+
+            <xs:element ref="开始时间"/>
+
+            <xs:element ref="终止时间"/>
+
+            <xs:element ref="公司名称"/>
+
+            <xs:element ref="职位"/>
+
+            <xs:element ref="职位描述"/>
+
+        </xs:sequence>
+
+    </xs:group>
+
+    <xs:complexType name="jobType">
+
+        <xs:sequence>
+
+            <xs:group ref="jobGroup"/>
+
+        </xs:sequence>
+
+    </xs:complexType>
+
+    <xs:element name="工作经历" type="jobType"/>
+
+    <xs:element name="工作">
+
+        <xs:complexType>
+
+            <xs:sequence maxOccurs="unbounded">
+
+                <xs:element ref="工作经历"/>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+    <!--自我评价-->
+
+    <xs:element name="自我评价" type="xs:string"/>
+
+    <xs:group name="resumeGroup">
+
+        <xs:sequence>
+
+            <xs:element ref="基本信息"/>
+
+            <xs:element ref="教育"/>
+
+            <xs:element ref="工作"/>
+
+            <xs:element ref="自我评价"/>
+
+        </xs:sequence>
+
+    </xs:group>
+
+    <xs:attribute name="id">
+
+        <xs:simpleType>
+
+            <xs:restriction base="xs:integer">
+
+                <xs:pattern value="[0-9][0-9][0-9][0-9][0-9]"/>
+
+            </xs:restriction>
+
+        </xs:simpleType>
+
+    </xs:attribute>
+
+    <xs:complexType name="resumeType">
+
+        <xs:sequence>
+
+            <xs:group ref="resumeGroup"/>
+
+        </xs:sequence>
+
+        <xs:attribute ref="id"/>
+
+    </xs:complexType>
+
+    <xs:element name="个人简历" type="resumeType"/>
+
+    <xs:element name="简历">
+
+        <xs:complexType>
+
+            <xs:sequence maxOccurs="unbounded">
+
+                <xs:element ref="个人简历"/>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

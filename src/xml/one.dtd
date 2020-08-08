@@ -1,0 +1,15 @@
+<!ELEMENT roster (class, student+)>
+<!ELEMENT class (monitor, department, specialty)
+<!ELEMENT student (name, sex?,classto)>
+<!ELEMENT monitor EMPTY>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT specialty (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT classto EMPTY>
+<!ATTLIST class id ID #REQUIRED>
+<!ATTLIST monitor ip IDREF #REQUIRED>
+<!ATTLIST student id ID #REQUIRED >
+<!ATTLIST student type CDATA #IMPLIED>
+<!ATTLIST name byname CDATA #IMPLIED>
+<!ATTLIST classto idf IDREF #REQUIRED>

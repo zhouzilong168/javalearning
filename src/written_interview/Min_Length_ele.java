@@ -1,8 +1,10 @@
+package written_interview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Min_Length {
+public class Min_Length_ele {
     public void test() {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

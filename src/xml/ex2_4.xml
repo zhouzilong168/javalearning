@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DTD约束-->
+<!DOCTYPE booklib [
+        <!ELEMENT title (#PCDATA)>
+        <!ATTLIST title language (en | china) #REQUIRED>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT Library ((book+))>
+        <!ELEMENT book ((title, author+, date, price))>
+        <!ATTLIST book catalog (computer | novel | history) #REQUIRED>
+        ]>
+<!--xml元素-->
+<booklib>
+    <book catalog="history">
+        <title language="en">five thousand years up and down</title>
+        <author>Wang Qiang</author>
+        <date>2005</date>
+        <price>30.00 yuan</price>
+    </book>
+    <book catalog="novel">
+        <title language="china">Hello China</title>
+        <author>Sun Jing</author>
+        <date>2005</date>
+        <price>RMB29.99</price>
+    </book>
+    <book catalog="computer">
+        <title language="china">five thousand years up and down</title>
+        <author>Jiang Junjie</author>
+        <author>Hu Peng</author>
+        <author>Zhao Yan</author>
+        <date>2006</date>
+    </book>
+</booklib>

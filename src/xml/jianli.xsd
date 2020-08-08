@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <!--简历根节点，将简历分为两个模块，基本信息和经历信息-->
+    <xs:element name="简历">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="基本信息"/>
+                <xs:element ref="经历信息"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--基本信息根节点,概要-->
+    <xs:element name="基本信息">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="姓名"/>
+                <xs:element ref="性别"/>
+                <xs:element ref="出生日期"/>
+                <xs:element ref="家庭住址"/>
+                <xs:element ref="个人电话"/>
+                <xs:element ref="联系人电话"/>
+                <xs:element ref="家庭信息"/>
+                <xs:element ref="学习阶段"/>
+                <xs:element name="自我评价" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+     
+    <!--经历情况根节点-->
+    <xs:element name="经历信息">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="工作经历"/>
+                <xs:element ref="在校经历"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="在校经历">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="个人爱好"/>
+                <xs:element ref="奖惩情况"/>
+                <xs:element ref="科研发表文章情况"/>
+                <xs:element ref="社团活动情况"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--基本信息-->
+    <xs:element name="姓名" type="xs:string"/>
+    <xs:element name="性别">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="男"/>
+                <xs:enumeration value="女"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="出生日期" type="xs:date"/> 
+    <xs:element name="籍贯" type="xs:string"/>
+    <xs:element name="家庭住址" type="xs:string"/>
+    <xs:element name="个人电话" type="phoneType"/>
+    <xs:element name="联系人电话" type="phoneType"/>
+    <!--电话正则表达式-->
+    <xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^+(?:[0-9]?){6,14}[0-9]$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="家庭信息" type="familyInfo"/>
+    <!--家庭成员信息-->
+    <xs:complexType name="familyInfo">
+        <xs:sequence>
+            <!--存在没有的可能，故设置minOccurs为0-->
+            <xs:element name="父亲" minOccurs="0"/>
+            <xs:element name="母亲" minOccurs="0"/>
+            <xs:element name="哥哥" minOccurs="0"/>
+            <xs:element name="弟弟" minOccurs="0"/>
+            <xs:element name="姐姐" minOccurs="0"/>
+            <xs:element name="妹妹" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="学习阶段" type="studyInfo"/>
+    <!--学习阶段信息-->
+    <xs:complexType name="studyInfo">
+        <xs:sequence>
+            <!--存在辍学或中途工作情况-->
+            <xs:element name="小学" type="educateGroup" minOccurs="0"/>
+            <xs:element name="初中" type="educateGroup" minOccurs="0"/>
+            <xs:element name="高中" type="educateGroup" minOccurs="0"/>
+            <xs:element name="专科" type="educateGroup" minOccurs="0"/>
+            <xs:element name="本科" type="educateGroup" minOccurs="0"/>
+            <xs:element name="硕士" type="educateGroup" minOccurs="0"/>
+            <xs:element name="博士" type="educateGroup" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!--教育信息-->
+    <xs:complexType name="educateGroup">
+        <xs:sequence>
+            <!--教育经历-->
+            <xs:element name="开始时间" type="xs:date"/>
+            <xs:element name="终止时间" type="xs:date"/>
+            <xs:element name="院校名称" type="xs:string"/>
+            <xs:element name="专业" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--工作情况-->
+    <xs:element name="工作经历">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="经历" type="workInfo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--工作经历信息-->
+    <xs:complexType name="workInfo">
+        <xs:sequence>
+            <xs:element name="公司名称" type="xs:string"/>
+            <xs:element name="职位" type="xs:string"/>
+            <xs:element name="开始时间" type="xs:date"/>
+            <xs:element name="终止时间" type="xs:date"/>
+            <xs:element name="职位描述" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--爱好-->
+    <xs:element name="个人爱好">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="爱好" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--奖惩情况-->
+    <xs:element name="奖惩情况">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="奖励" type="xs:string" maxOccurs="unbounded"/>
+                <xs:element name="惩罚" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--科研发表文章情况-->
+    <xs:element name="科研发表文章情况">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="文章" type="articleInfo" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--文章发表情况-->
+    <xs:complexType name="articleInfo">
+        <xs:sequence>
+            <xs:element name="文章标题" type="xs:string"/>
+            <xs:element name="发表平台" type="xs:string"/>
+            <xs:element name="内容分类" type="xs:string"/>
+            <xs:element name="发表时间" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--社团活动情况-->
+    <xs:element name="社团活动情况">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="活动" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

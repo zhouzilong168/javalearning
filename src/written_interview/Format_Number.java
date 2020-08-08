@@ -1,4 +1,4 @@
-package written_interview.meituan_200423;
+package written_interview;
 
 import java.util.Scanner;
 

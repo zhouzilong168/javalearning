@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by 123 (456) -->
+<!ELEMENT quotedoc (quotelist, catalog)>
+<!ELEMENT quotelist (quote+)>
+<!ATTLIST quotelist
+        author CDATA #REQUIRED
+        quotes CDATA #REQUIRED
+        >
+<!ELEMENT quote (#PCDATA)>
+<!ATTLIST quote
+        source CDATA #IMPLIED
+        author CDATA #IMPLIED
+        >
+<!ELEMENT catalog (amazon, elcorteingles)>
+<!ATTLIST catalog
+        items CDATA #REQUIRED
+        >
+<!ELEMENT amazon (product+)>
+<!ATTLIST amazon
+        items CDATA #REQUIRED
+        >
+<!ELEMENT elcorteingles (product)>
+<!ATTLIST elcorteingles
+        items CDATA #REQUIRED
+        >
+<!ELEMENT product (ranking?, (title | titulo)+, (asin | isbn)+, (author | autor)+, (image | imagen)+, small_image?, (list_price | precio)+, (release_date | fecha_de_publicación)+, (binding | Encuadernación)+, availability?, (tagged_url | librourl)+)>
+<!ATTLIST product
+        xml:lang CDATA #IMPLIED
+        >
+<!ELEMENT Encuadernación (#PCDATA)>
+<!ELEMENT asin (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT binding (#PCDATA)>
+<!ELEMENT fecha_de_publicación (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT librourl (#PCDATA)>
+<!ELEMENT list_price (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT ranking (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT small_image (#PCDATA)>
+<!ELEMENT tagged_url (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+

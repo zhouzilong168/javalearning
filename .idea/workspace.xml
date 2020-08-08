@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffee243a-b30a-4156-9776-c7576c025f4c" name="Default Changelist" comment="Complement of README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/FirstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/HammingWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xml/ex1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaSE/proxy/JDKProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/meituan_200423/Format_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/Format_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/meituan_200423/Lucky_Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/Lucky_Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/meituan_200423/MinLen_InArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/MinLen_InArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/meituan_200423/Min_Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/Min_Length_ele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/meituan_200423/NumberOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/NumberOff.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bIfAGgpbDBaN50EjLyVtFkG59w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/others" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="algorithm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA\javalearning\src\others" />
+      <recent name="F:\IDEA\javalearning\src\javaEE" />
+      <recent name="F:\IDEA\javalearning\lib" />
+      <recent name="F:\IDEA\javalearning\src\javaEE\midware\RMI" />
+      <recent name="F:\IDEA\javalearning\src\sort\simple" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm.dynamic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA\javalearning\src\xml" />
+      <recent name="F:\IDEA\javalearning\src\others\xml" />
+      <recent name="F:\IDEA\javalearning\src" />
+      <recent name="F:\IDEA\javalearning\src\class\xml" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.ex3">
+    <configuration name="XMLCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XMLCreate" />
+      <module name="javalearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ec6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaEE.midware.RMI.ec6" />
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaEE.midware.RMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaSE.proxy.ex3" />
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaSE.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaEE.midware.RMI.ex4" />
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaEE.midware.RMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaEE.midware.RMI.test" />
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaEE.midware.RMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.ec6" />
+      <item itemvalue="Application.ex4" />
+      <item itemvalue="Application.XMLCreate" />
+      <item itemvalue="Application.ex3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ex3" />
+        <item itemvalue="Application.XMLCreate" />
+        <item itemvalue="Application.ex4" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.ec6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffee243a-b30a-4156-9776-c7576c025f4c" name="Default Changelist" comment="" />
+      <created>1586572971785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586572971785</updated>
+      <workItem from="1586572975141" duration="3255000" />
+      <workItem from="1586578325606" duration="3444000" />
+      <workItem from="1586593861413" duration="3530000" />
+      <workItem from="1586743217361" duration="6979000" />
+      <workItem from="1586758713659" duration="11995000" />
+      <workItem from="1586829967583" duration="983000" />
+      <workItem from="1586851637483" duration="1805000" />
+      <workItem from="1586915073145" duration="8346000" />
+      <workItem from="1586932616643" duration="7302000" />
+      <workItem from="1586949523603" duration="4671000" />
+      <workItem from="1587003422945" duration="7899000" />
+      <workItem from="1587020070327" duration="948000" />
+      <workItem from="1587026449663" duration="2835000" />
+      <workItem from="1587085705525" duration="779000" />
+      <workItem from="1587096323477" duration="2506000" />
+      <workItem from="1587105791383" duration="36000" />
+      <workItem from="1587107797471" duration="4245000" />
+      <workItem from="1587131379998" duration="776000" />
+      <workItem from="1587207082786" duration="4810000" />
+      <workItem from="1587261081227" duration="9330000" />
+      <workItem from="1587346747238" duration="1641000" />
+      <workItem from="1587362824787" duration="117000" />
+      <workItem from="1587371996723" duration="6244000" />
+      <workItem from="1587432324538" duration="93000" />
+      <workItem from="1587432484125" duration="3272000" />
+      <workItem from="1587458429959" duration="4502000" />
+      <workItem from="1587517540862" duration="5597000" />
+      <workItem from="1587538863535" duration="637000" />
+      <workItem from="1587691919134" duration="1789000" />
+      <workItem from="1587695268199" duration="57000" />
+      <workItem from="1587786777725" duration="1942000" />
+      <workItem from="1587794532321" duration="4290000" />
+      <workItem from="1587801231834" duration="5350000" />
+      <workItem from="1587819245102" duration="2770000" />
+      <workItem from="1587864987085" duration="5668000" />
+      <workItem from="1587876606103" duration="1734000" />
+      <workItem from="1587883307418" duration="10046000" />
+      <workItem from="1587902397386" duration="9754000" />
+      <workItem from="1587969389405" duration="6153000" />
+      <workItem from="1588066372499" duration="591000" />
+      <workItem from="1588123293192" duration="3534000" />
+      <workItem from="1588141831350" duration="2492000" />
+      <workItem from="1588301813835" duration="3616000" />
+      <workItem from="1588310387892" duration="533000" />
+      <workItem from="1588316171388" duration="938000" />
+      <workItem from="1588317274680" duration="5090000" />
+      <workItem from="1588324447751" duration="909000" />
+      <workItem from="1588325497513" duration="1545000" />
+      <workItem from="1588329942323" duration="58000" />
+      <workItem from="1588330194165" duration="6988000" />
+      <workItem from="1588385375645" duration="837000" />
+      <workItem from="1588386847836" duration="1348000" />
+      <workItem from="1588388274682" duration="90000" />
+      <workItem from="1588388426954" duration="146000" />
+      <workItem from="1588388640231" duration="96000" />
+      <workItem from="1588388801440" duration="64000" />
+      <workItem from="1588388937795" duration="7210000" />
+      <workItem from="1588404292301" duration="2395000" />
+      <workItem from="1588484545512" duration="552000" />
+      <workItem from="1588485189847" duration="9204000" />
+      <workItem from="1588498321306" duration="1158000" />
+      <workItem from="1588502505129" duration="9160000" />
+      <workItem from="1588556420692" duration="3868000" />
+      <workItem from="1588562629718" duration="3784000" />
+      <workItem from="1588574701957" duration="3039000" />
+      <workItem from="1588647317069" duration="3778000" />
+      <workItem from="1588662781196" duration="10642000" />
+      <workItem from="1588674815013" duration="8000" />
+      <workItem from="1588727569751" duration="386000" />
+      <workItem from="1588749910363" duration="4884000" />
+      <workItem from="1588757433719" duration="287000" />
+      <workItem from="1588816832457" duration="6137000" />
+      <workItem from="1588835484206" duration="645000" />
+      <workItem from="1588836258463" duration="3287000" />
+      <workItem from="1588899439300" duration="708000" />
+      <workItem from="1588900252862" duration="59000" />
+      <workItem from="1588904030703" duration="1972000" />
+      <workItem from="1588913146047" duration="4646000" />
+      <workItem from="1588920062402" duration="4371000" />
+      <workItem from="1588997476746" duration="2273000" />
+      <workItem from="1589001118799" duration="4471000" />
+      <workItem from="1589009496561" duration="1594000" />
+      <workItem from="1589013607072" duration="1291000" />
+      <workItem from="1589079587534" duration="56000" />
+      <workItem from="1589160323465" duration="4815000" />
+      <workItem from="1589170340243" duration="1941000" />
+      <workItem from="1589179660463" duration="6018000" />
+      <workItem from="1589204824163" duration="58000" />
+      <workItem from="1589245396359" duration="9357000" />
+      <workItem from="1589265670827" duration="1270000" />
+      <workItem from="1589267510037" duration="74000" />
+      <workItem from="1589267737913" duration="159000" />
+      <workItem from="1589268228005" duration="139000" />
+      <workItem from="1589362540383" duration="1277000" />
+      <workItem from="1589414666250" duration="1660000" />
+      <workItem from="1589419707188" duration="10826000" />
+      <workItem from="1589437375008" duration="5950000" />
+      <workItem from="1589619888300" duration="1816000" />
+      <workItem from="1589706051344" duration="2313000" />
+      <workItem from="1589794873744" duration="1437000" />
+      <workItem from="1589853943559" duration="7289000" />
+      <workItem from="1589879965593" duration="4488000" />
+      <workItem from="1589935108595" duration="2161000" />
+      <workItem from="1589966770856" duration="1134000" />
+      <workItem from="1590043212853" duration="270000" />
+      <workItem from="1590043700899" duration="2685000" />
+      <workItem from="1590115106391" duration="2349000" />
+      <workItem from="1590208370409" duration="415000" />
+      <workItem from="1590303268196" duration="4498000" />
+      <workItem from="1590483477220" duration="5574000" />
+      <workItem from="1590547288076" duration="483000" />
+      <workItem from="1590547929612" duration="2808000" />
+      <workItem from="1590556096924" duration="294000" />
+      <workItem from="1590558736356" duration="188000" />
+      <workItem from="1590571999003" duration="1671000" />
+      <workItem from="1590575284977" duration="1021000" />
+      <workItem from="1590580717778" duration="2903000" />
+      <workItem from="1590824754748" duration="1404000" />
+      <workItem from="1590827114250" duration="2472000" />
+      <workItem from="1590841985899" duration="627000" />
+      <workItem from="1590973200629" duration="5276000" />
+      <workItem from="1590995541420" duration="5491000" />
+      <workItem from="1591070696841" duration="3012000" />
+      <workItem from="1591081299484" duration="8545000" />
+      <workItem from="1591101474687" duration="4492000" />
+      <workItem from="1591147599143" duration="7746000" />
+      <workItem from="1591165758032" duration="10587000" />
+      <workItem from="1591323365913" duration="3539000" />
+      <workItem from="1591494642408" duration="8302000" />
+      <workItem from="1591509913718" duration="13753000" />
+      <workItem from="1591620573094" duration="598000" />
+      <workItem from="1591670774394" duration="3100000" />
+      <workItem from="1593140029617" duration="15258000" />
+      <workItem from="1593224374884" duration="7055000" />
+      <workItem from="1593241226336" duration="3925000" />
+      <workItem from="1593246344562" duration="8792000" />
+      <workItem from="1593354544093" duration="675000" />
+      <workItem from="1593439198348" duration="3331000" />
+      <workItem from="1593841172025" duration="10960000" />
+      <workItem from="1593938560927" duration="2700000" />
+      <workItem from="1596871677447" duration="694000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit previous code">
+      <created>1586575603171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586575603171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit readme.md">
+      <created>1586576126897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586576126897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bucket sorting 桶排序">
+      <created>1586578778551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586578778552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify package">
+      <created>1586744649261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586744649262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RMI of the midware">
+      <created>1586750204277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586750204277</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solve some binding bug">
+      <created>1586759020800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586759020800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Traverse the binarytree in three ways,such as preOrder,inOrder and postOrder.&#10;前序/中序/后序遍历二叉树">
+      <created>1586765022049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586765022049</updated>
+    </task>
+    <task id="LOCAL-00008" summary="kinds of sort algorithm">
+      <created>1586766229121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586766229121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some problem of bianrytree levelOrderTraversal">
+      <created>1586770409506</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586770409506</updated>
+    </task>
+    <task id="LOCAL-00010" summary="optimize README.md">
+      <created>1586770553203</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586770553203</updated>
+    </task>
+    <task id="LOCAL-00011" summary="optimize the problem of the LevelOrderTraversal">
+      <created>1586772116874</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586772116874</updated>
+    </task>
+    <task id="LOCAL-00012" summary="NumberFormat &amp;&amp; Equivalence class">
+      <created>1586938554900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586938554900</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upstair&amp;fixbug">
+      <created>1587378009316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587378009316</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sometest">
+      <created>1587692373326</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587692373327</updated>
+    </task>
+    <task id="LOCAL-00015" summary="meituan written exam">
+      <created>1587693407653</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587693407653</updated>
+    </task>
+    <task id="LOCAL-00016" summary="writtenexam question">
+      <created>1587804433092</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587804433093</updated>
+    </task>
+    <task id="LOCAL-00017" summary="BitMap &amp; meituanInterview">
+      <created>1588304199807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588304199807</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Algorithm Question">
+      <created>1588584996351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588584996351</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Complier Optimize for Cperator">
+      <created>1588652124834</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588652124834</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Complement of README.md">
+      <created>1588664529390</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1588664529390</updated>
+    </task>
+    <task id="LOCAL-00021" summary="interview&amp;written algorithm">
+      <created>1589945093038</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1589945093039</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit previous code" />
+    <MESSAGE value="commit readme.md" />
+    <MESSAGE value="Bucket sorting 桶排序" />
+    <MESSAGE value="modify package" />
+    <MESSAGE value="RMI of the midware" />
+    <MESSAGE value="solve some binding bug" />
+    <MESSAGE value="Traverse the binarytree in three ways,such as preOrder,inOrder and postOrder.&#10;前序/中序/后序遍历二叉树" />
+    <MESSAGE value="kinds of sort algorithm" />
+    <MESSAGE value="some problem of bianrytree levelOrderTraversal" />
+    <MESSAGE value="optimize README.md" />
+    <MESSAGE value="optimize the problem of the LevelOrderTraversal" />
+    <MESSAGE value="NumberFormat &amp;&amp; Equivalence class" />
+    <MESSAGE value="upstair&amp;fixbug" />
+    <MESSAGE value="sometest" />
+    <MESSAGE value="meituan written exam" />
+    <MESSAGE value="writtenexam question" />
+    <MESSAGE value="BitMap &amp; meituanInterview" />
+    <MESSAGE value="Algorithm Question" />
+    <MESSAGE value="Complier Optimize for Cperator" />
+    <MESSAGE value="Complement of README.md" />
+    <MESSAGE value="interview&amp;written algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="interview&amp;written algorithm" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1593246358699">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593246358699" />
+    <state x="362" y="0" key="#XML" timestamp="1591325307719">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="362" y="0" key="#XML/0.0.1366.738@0.0.1366.738" timestamp="1591325307719" />
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593231015519">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593231015519" />
+    <state x="436" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589620266418">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1589620266418" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1593248774041">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593248774041" />
+    <state x="459" y="262" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596871988808">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="459" y="262" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1596871988808" />
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589428913768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1589428913768" />
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1589945086812">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1589945086812" />
+    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1591072063634">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="420" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1591072063634" />
+    <state x="129" y="56" key="DiffContextDialog" timestamp="1588584769088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1588584769088" />
+    <state x="536" y="137" key="FileChooserDialogImpl" timestamp="1593244778687">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="536" y="137" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593244778687" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1593269614960">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593269614960" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1593269614960">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593269614960" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1593269614959">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593269614959" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1593269614960">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593269614960" />
+    <state x="263" y="104" key="IDE.errors.dialog" timestamp="1588389598138">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="104" key="IDE.errors.dialog/0.0.1366.738@0.0.1366.738" timestamp="1588389598138" />
+    <state x="269" y="70" key="RollbackChangesDialog" timestamp="1589443436974">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="269" y="70" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1589443436974" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1596871775055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596871775055" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1589945258455">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1589945258455" />
+    <state x="238" y="53" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1590115331664">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="238" y="53" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1366.738@0.0.1366.738" timestamp="1590115331664" />
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588915159627">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1588915159627" />
+    <state width="500" height="350" key="documentation.popup.size" timestamp="1591515644118">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="500" height="350" key="documentation.popup.size/0.0.1366.738@0.0.1366.738" timestamp="1591515644118" />
+    <state x="384" y="72" width="840" height="594" key="find.popup" timestamp="1589882443115">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="384" y="72" width="840" height="594" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1589882443115" />
+    <state x="375" y="156" key="git4idea.merge.GitPullDialog" timestamp="1589945244992">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="375" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1589945244992" />
+    <state x="57" y="0" key="new project wizard" timestamp="1593244840727">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1593244840727" />
+    <state x="442" y="240" width="628" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588389045204">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="442" y="240" width="628" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1588389045204" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1593161486354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1593161486354" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1593143704012">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1593143704012" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Ali_Test.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/ReBuildBT.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/Path_InMatrix.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

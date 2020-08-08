@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE quotedoc SYSTEM "work2.dtd">
+<quotedoc>
+    <quotelist author="鲁迅" quotes="文化大牛">
+        <quote>近代社会的黑暗</quote>
+        <quote>近代社会的白昼</quote>
+    </quotelist>
+    <catalog items="Java核心技术系列">
+        <amazon items="compute">
+            <product>
+                <ranking>first</ranking>
+                <title>Effective Java</title>
+                <isbn>9780321356680</isbn>
+                <author>Addison-Wesley</author>
+                <image>blue</image>
+                <small_image>white</small_image>
+                <list_price>54.99$</list_price>
+                <release_date>2008-05-28</release_date>
+                <binding>Paperback</binding>
+                <tagged_url>https:~subject/</tagged_url>
+            </product>
+        </amazon>
+        <elcorteingles items="">
+            <product>
+                <ranking>first</ranking>
+                <title>Effective Java</title>
+                <isbn>9780321356680</isbn>
+                <author>Addison-Wesley</author>
+                <image>blue</image>
+                <small_image>white</small_image>
+                <list_price>54.99$</list_price>
+                <release_date>2008-05-28</release_date>
+                <binding>Paperback</binding>
+                <tagged_url>https:~subject/</tagged_url>
+            </product>
+        </elcorteingles>
+    </catalog>
+</quotedoc>

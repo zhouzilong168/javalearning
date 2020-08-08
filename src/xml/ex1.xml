@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ex1_3.xsl"?>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ex1.xsd">
+    <!--引入同一个文件夹下的xsd文件-->
+    <student id="0121710870720"><!--可以定义多个学生-->
+        <name>zzz</name><!--学生姓名-->
+        <sex>male</sex><!--学生性别（枚举）：male/female-->
+        <date>1999-01-06</date><!--出生日期-->
+        <course id="1010">
+            <!--课程分数，属性type表示成绩性质（枚举）：正常/补考/重修-->
+            <score>
+                <normal>99.99</normal>
+            </score>
+        </course><!--一个学生可选修多门课程-->
+        <course id="1011">
+            <score>
+                <normal>56</normal>
+                <retake>59</retake>
+                <rebuild>60</rebuild>
+            </score>
+        </course>
+    </student>
+    <student id="123133213">
+        <name>sdf</name>
+        <sex>male</sex>
+        <date>1999-12-12</date>
+        <course id="1011">
+            <score>
+                <normal>79</normal>
+            </score>
+        </course>
+    </student>
+    <student id="0121710870721">
+        <name>lfb</name>
+        <sex>female</sex>
+        <date>1999-11-19</date>
+        <course id="1010">
+            <score>
+                <normal>56</normal>
+                <retake>68</retake>
+            </score>
+        </course>
+    </student>
+    <!--课程-->
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+    </course>
+    <course id="1011">
+        <name>java</name>
+        <credit>3.0</credit>
+        <note>java program design</note>
+    </course>
+</school>
+
+<!--
+        <?xml version="1.0" encoding="utf-8"?>
+        <?xml-stylesheet type="text/xsl" href="ex1_3.xsl"?>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ex1.xsd">
+&lt;!&ndash;引入同一个文件夹下的xsd文件&ndash;&gt;
+<student id="0121710870720">&lt;!&ndash;可以定义多个学生&ndash;&gt;
+    <name>zzl</name>&lt;!&ndash;学生姓名&ndash;&gt;
+    <sex>male</sex>&lt;!&ndash;学生性别（枚举）：male/female&ndash;&gt;
+    <date>1999-01-06</date>&lt;!&ndash;出生日期&ndash;&gt;
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>&lt;!&ndash;学分&ndash;&gt;
+        <note>this is a very important class</note>
+        &lt;!&ndash;课程分数，属性type表示成绩性质（枚举）：正常/补考/重修&ndash;&gt;
+        <score type="normal">99.9</score>
+    </course>&lt;!&ndash;一个学生可选修多门课程&ndash;&gt;
+    <course id="1011">
+        <name>java</name>
+        <credit>3.0</credit>
+        <note>java program design</note>
+        <score type="normal">99.99</score>
+    </course>
+</student>
+<student id="0121710870721">
+    <name>lfb</name>
+    <sex>female</sex>
+    <date>1999-11-19</date>
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+        <score type="normal">98.88</score>
+    </course>
+</student>
+<student id="0121710870721">
+    <name>lfb</name>
+    <sex>female</sex>
+    <date>1999-11-19</date>
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+        <score type="normal">98.88</score>
+    </course>
+</student>
+<student id="0121710870721">
+    <name>lfb</name>
+    <sex>female</sex>
+    <date>1999-11-19</date>
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+        <score type="normal">98.88</score>
+    </course>
+</student>
+<student id="0121710870721">
+    <name>lfb</name>
+    <sex>female</sex>
+    <date>1999-11-19</date>
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+        <score type="normal">98.88</score>
+    </course>
+</student>
+<student id="0121710870721">
+    <name>lfb</name>
+    <sex>female</sex>
+    <date>1999-11-19</date>
+    <course id="1010">
+        <name>xml</name>
+        <credit>2.0</credit>
+        <note>this is a very important class</note>
+        <score type="normal">98.88</score>
+    </course>
+</student>
+</school>
+-->

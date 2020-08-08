@@ -1,0 +1,31 @@
+唐诗{
+    display:block;
+    background-color:aquamarine;
+    border: darkmagenta solid 2px;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    margin:5px;
+
+}
+五言绝句{
+    display:block;
+    text-align: center;
+    line-height:30px;
+}
+作者{
+    display:block;
+    background-color: azure;
+    text-align: center;
+    line-height:30px;
+}
+标题{
+    display:block;
+    background-color: bisque;
+    text-align: center;
+    line-height:30px;
+}
+内容{
+    display: block;
+    text-align: center;
+}

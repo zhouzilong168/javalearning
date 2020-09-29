@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE NEWSPAPER SYSTEM "???.dtd">
+<NEWSPAPER>
+    <ARTICLE AUTHOR="张三" EDITOR="李四" DATE="2020-05-17" EDITION="王五">
+        <HEADLINE>headline 大纲</HEADLINE>
+        <BODY>body 主体</BODY>
+        <NOTES>comment 注释</NOTES>
+    </ARTICLE>
+</NEWSPAPER>

@@ -37,7 +37,7 @@ public class Merge {
      */
     private void mergeByRecursion(int[] array, int begin, int end) {
         if (begin < end) {
-            int mid = (begin + end) >> 1;
+            int mid = begin + (end - begin) >> 1;
             mergeByRecursion(array, begin, mid);
             mergeByRecursion(array, mid + 1, end);
             //merge(array,begin,mid+1,end);
@@ -105,7 +105,7 @@ public class Merge {
             end--;
         }
     }
-
+    // 可在参数中传递一份始终使用
     private void merge(int[] array, int begin, int mid, int end) {
         // 开启辅助空间复制数组，每次merge都要开启length长
         int[] temp = Arrays.copyOf(array, array.length);

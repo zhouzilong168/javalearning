@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<purchaseOrder orderDate="1999-10-21">
+    <item partNum="872-AA">
+        <productName>Lawnmower</productName>
+        <quantity>1</quantity>
+        <USPrice>148.95</USPrice>
+    </item>
+</purchaseOrder>

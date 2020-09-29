@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    <!--类型定义 学生元素类型+课程元素类型-->
+    <!--学生元素类型-->
+    <xsd:complexType name="stuType">
+        <xsd:sequence>
+            <xsd:element ref="name"/>
+            <xsd:element ref="sex"/>
+            <xsd:element name="date" type="xsd:date"/>
+            <!--一个学生可选多门课，课程设置为不受限-->
+            <xsd:element name="course" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element ref="score"/>
+                    </xsd:sequence>
+                    <xsd:attribute ref="id" use="required"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute ref="id" use="required"/>
+    </xsd:complexType>
+
+    <!--课程元素类型-->
+    <xsd:complexType name="couType">
+        <xsd:sequence>
+            <xsd:element ref="name"/>
+            <xsd:element name="credit" type="xsd:decimal"/>
+            <xsd:element name="note" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute ref="id" use="required"/>
+    </xsd:complexType>
+
+    <!--属性定义-->
+    <!--学生和课程可使用相同的id定义-->
+    <xsd:attribute name="id" type="xsd:string"/>
+
+    <!--元素的定义 学生+名字+性别+课程+分数-->
+    <xsd:element name="student" type="stuType"/>
+    <!--名字，学生、课程都有名字，定义在外部，全局引用-->
+    <xsd:element name="name" type="xsd:string"/>
+    <!--性别，枚举限制-->
+    <xsd:element name="sex">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="male"/>
+                <xsd:enumeration value="female"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+    <!--课程-->
+    <xsd:element name="course" type="couType"/>
+    <!--分数-->
+    <xsd:element name="score">
+        <xsd:complexType>
+            <xsd:sequence><!--子元素定义必选/可选，通过minOccurs设置-->
+                <xsd:element name="normal" type="xsd:decimal" minOccurs="1"/>
+                <xsd:element name="retake" type="xsd:decimal" minOccurs="0"/>
+                <xsd:element name="rebuild" type="xsd:decimal" minOccurs="0"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <!--全局有名类型school-->
+    <xsd:element name="school">
+        <xsd:complexType>
+            <xsd:sequence>
+                <!--学校可有多个学生，数量设置为不受限-->
+                <xsd:element ref="student" maxOccurs="unbounded"/>
+                <!--学校可开设多门课程，数量设置为不受限-->
+                <xsd:element ref="course" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
+
+        <!--
+                <?xml version="1.0"?>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    elementFormDefault="qualified">
+        &lt;!&ndash;类型定义 学生元素类型+课程元素类型&ndash;&gt;
+        &lt;!&ndash;学生元素类型&ndash;&gt;
+        <xsd:complexType name="stuType">
+            <xsd:sequence>
+                <xsd:element ref="name"/>
+                <xsd:element ref="sex"/>
+                <xsd:element name="date" type="xsd:date"/>
+                &lt;!&ndash;一个学生可选多门课，课程设置为不受限&ndash;&gt;
+                <xsd:element ref="course" maxOccurs="unbounded"/>
+            </xsd:sequence>
+            <xsd:attribute ref="id" use="required"/>
+        </xsd:complexType>
+
+        &lt;!&ndash;课程元素类型&ndash;&gt;
+        <xsd:complexType name="couType">
+            <xsd:sequence>
+                <xsd:element ref="name"/>
+                <xsd:element name="credit" type="xsd:decimal"/>
+                <xsd:element name="note" type="xsd:string"/>
+                <xsd:element ref="score"/>
+            </xsd:sequence>
+            <xsd:attribute ref="id" use="required"/>
+        </xsd:complexType>
+
+        &lt;!&ndash;属性定义&ndash;&gt;
+        &lt;!&ndash;学生和课程可使用相同的id定义&ndash;&gt;
+        <xsd:attribute name="id" type="xsd:string"/>
+
+        &lt;!&ndash;元素的定义 学生+名字+性别+课程+分数&ndash;&gt;
+        <xsd:element name="student" type="stuType"/>
+        &lt;!&ndash;名字，学生、课程都有名字，定义在外部，全局引用&ndash;&gt;
+        <xsd:element name="name" type="xsd:string"/>
+        &lt;!&ndash;性别，枚举限制&ndash;&gt;
+        <xsd:element name="sex">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="male"/>
+                    <xsd:enumeration value="female"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:element>
+        &lt;!&ndash;课程&ndash;&gt;
+        <xsd:element name="course" type="couType"/>
+        &lt;!&ndash;分数&ndash;&gt;
+        <xsd:element name="score">
+            <xsd:complexType mixed="true">&lt;!&ndash;定义混合类型&ndash;&gt;
+                <xsd:attribute name="type" use="required">&lt;!&ndash;限制属性类型，为成绩类型&ndash;&gt;
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="normal"/>&lt;!&ndash;正常考试成绩&ndash;&gt;
+                            <xsd:enumeration value="retake"/>&lt;!&ndash;补考成绩&ndash;&gt;
+                            <xsd:enumeration value="rebuild"/>&lt;!&ndash;重修成绩&ndash;&gt;
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:complexType>
+        </xsd:element>
+        &lt;!&ndash;全局有名类型school&ndash;&gt;
+        <xsd:element name="school">
+            <xsd:complexType>
+                <xsd:sequence>&lt;!&ndash;学校可有多个学生，数量设置为不受限&ndash;&gt;
+                    <xsd:element ref="student" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        </xsd:schema>-->

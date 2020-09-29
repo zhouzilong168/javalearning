@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GB2312"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    <xsd:simpleType name="name">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="钢笔"/>
+            <xsd:enumeration value="原珠笔"/>
+            <xsd:enumeration value="铅笔"/>
+            <xsd:enumeration value="毛笔"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="单价">
+        <xsd:complexType>
+            <xsd:all>
+                <xsd:element name="出厂价" type="xsd:integer"/>
+                <xsd:element name="售价" type="xsd:float"/>
+            </xsd:all>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="产品">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="产品名称" type="name"/>
+                <xsd:element ref="单价"/>
+            </xsd:sequence>
+            <xsd:attribute name="ID" use="required">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN"/>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="产品系列">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="产品" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE roster SYSTEM "F:\IDEA\javalearning\src\others\xml\one.dtd">
+<roster>
+    <class id="c101">
+        <monitor ip="s101"/>
+        <department>信息工程</department>
+        <specialty>计算机应用</specialty>
+    </class>
+    <student id="s101" type="特长生">
+        <name>李华</name>
+        <sex>男</sex>
+        <classto idf="s101"/>
+    </student>
+    <student id="s102">
+        <name byname="西门飘雪">倪冰</name>
+        <classto idf="s101"/>
+    </student>
+</roster>

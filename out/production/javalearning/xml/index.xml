@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title><%=request.getAttribute("简历/基本信息/姓名")%>的个人简历
+        </title>
+    </head>
+    <body>
+        <h2 align="center">简历</h2>
+        <table align="center" width="800" border="0">
+            <tbody>
+                <tr>
+                    <th colspan="7" bgcolor="#9aff32" align="left">基本信息</th>
+                </tr>
+                <tr>"
+                    <td width=35">姓名:</td>
+                    <td width="50">
+                        <font color="gray">
+                            <%=request.getAttribute("姓名")%>
+                        </font>
+                    </td>
+                    <td width="35">性别:</td>
+                    <td width="40">
+                        <font color="gray">
+                            <%=request.getAttribute("性别")%>
+                        </font>
+                    </td>
+                    <td width="35">出生日期:</td>
+                    <td width="80">
+                        <font color="gray">
+                            <%=request.getAttribute("出生日期")%>
+                        </font>
+                    </td>
+                    <td width="150" rowspan="2">
+                        <img src="F:\IDEA\javalearning\src\javaEE\zzl2018.png" width="80" height="100px)%>
+                    </td>
+                </tr>
+                <tr>
+                    <td>家庭住址:</td>
+                    <td>
+                        <font color="gray">
+                            <%=request.getAttribute("家庭住址")%>
+                        </font>
+                    </td>
+                    <td>个人电话:</td>
+                    <td>
+                        <font color="gray">
+                            <%=request.getAttribute("个人电话")%>
+                        </font>
+                    </td>
+                    <td>联系人电话:</td>
+                    <td>
+                        <font color="gray">
+                            <%=request.getAttribute("联系人电话")%>
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br/>
+        <table width="800" align="center" style="border-collapse:separate; border-spacing:0px 5px;">
+            <tbody>
+                <tr>
+                    <th colspan="5" bgcolor="#9aff32" align="left">工作经历</th>
+                </tr>
+                <tr>
+                    <td>公司名称</td>
+                    <td>职位</td>
+                    <td>开始时间</td>
+                    <td>终止时间</td>
+                    <td>职位描述</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <tr style="color:gray">
+            <td>
+                <%=request.getAttribute("公司名称)%>
+            </td>
+            <td>
+                <%=request.getAttribute("职位)%>
+            </td>
+            <td>
+                <%=request.getAttribute("开始时间)%>
+            </td>
+            <td>
+                <%=request.getAttribute("终止时间)%>
+            </td>
+            <td width="350">
+                <%=request.getAttribute("职位描述)%>
+            </td>
+        </tr>
+        <br/>
+        <table width="800" align="center" style="border-collapse:separate; border-spacing:0px 5px;">
+            <tbody>
+                <tr>
+                    <th colspan="5" bgcolor="#9aff32" align="left">在校情况</th>
+                </tr>
+                <tr>
+                    <td>个人爱好</td>
+                    <td>奖惩情况</td>
+                    <td>科研发表文章情况</td>
+                    <td>社团活动情况</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

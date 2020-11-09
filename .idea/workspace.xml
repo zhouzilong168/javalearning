@@ -20,12 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffee243a-b30a-4156-9776-c7576c025f4c" name="Default Changelist" comment="Complement of README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/others/TreeArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/BSTK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/MedianFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/MedianFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/swordoffer/LongestLengthOfDiffSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/swordoffer/LongestLengthOfDiffSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/swordoffer/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/algorithm/leetcode/swordoffer/LowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/datastructure/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/datastructure/Traversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/test/DeepClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/test/DeepClone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/test/TestSome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/test/TestSome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javalearning/written_interview/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javalearning/written_interview/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/BSTK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/MedianFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/LongestLengthOfDiffSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/LongestLengthOfDiffSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DeepClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DeepClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestSome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestSome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/written_interview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/written_interview/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +92,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud-examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloSpringBoot" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -119,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MedianFinder">
+  <component name="RunManager" selected="JUnit.Quick.test1">
     <configuration name="KMP" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.others.KMP" />
       <module name="javalearning" />
@@ -134,8 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.MedianFinder" />
+    <configuration name="KthSequence.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalearning" />
       <extension name="coverage">
         <pattern>
@@ -143,38 +156,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="algorithm.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.KthSequence" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum$C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.swordoffer.PathSum$C" />
-      <module name="javalearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.swordoffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.swordoffer.PathSum" />
-      <module name="javalearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.swordoffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeDivMaxAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.ThreeDivMaxAdd" />
+    <configuration name="MaxSlideArr.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalearning" />
       <extension name="coverage">
         <pattern>
@@ -182,19 +172,58 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="algorithm.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.MaxSlideArr" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_quick" />
+    <configuration name="PalindromeList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javalearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzl.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzl.MySpringBootApplication" />
+      <option name="PACKAGE_NAME" value="algorithm.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.PalindromeList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quick.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.Quick" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestSome" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,20 +237,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.KMP" />
-      <item itemvalue="Application.ThreeDivMaxAdd" />
-      <item itemvalue="Application.PathSum" />
-      <item itemvalue="Application.PathSum$C" />
+      <item itemvalue="JUnit.KthSequence.test" />
+      <item itemvalue="JUnit.PalindromeList.test" />
+      <item itemvalue="JUnit.TestSome.test" />
+      <item itemvalue="JUnit.MaxSlideArr.test" />
+      <item itemvalue="JUnit.Quick.test1" />
       <item itemvalue="Spring Boot.SpringbootQuick2Application" />
-      <item itemvalue="Spring Boot.MySpringBootApplication" />
-      <item itemvalue="Application.MedianFinder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MedianFinder" />
-        <item itemvalue="Application.PathSum$C" />
-        <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.ThreeDivMaxAdd" />
-        <item itemvalue="Spring Boot.MySpringBootApplication" />
+        <item itemvalue="JUnit.Quick.test1" />
+        <item itemvalue="JUnit.MaxSlideArr.test" />
+        <item itemvalue="JUnit.TestSome.test" />
+        <item itemvalue="JUnit.PalindromeList.test" />
+        <item itemvalue="JUnit.KthSequence.test" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +442,37 @@
       <workItem from="1601086162179" duration="11820000" />
       <workItem from="1601169683311" duration="3177000" />
       <workItem from="1601203669324" duration="403000" />
-      <workItem from="1601346287424" duration="4640000" />
+      <workItem from="1601346287424" duration="6824000" />
+      <workItem from="1601524113136" duration="518000" />
+      <workItem from="1601729489509" duration="3887000" />
+      <workItem from="1601875309153" duration="1272000" />
+      <workItem from="1602139498207" duration="11408000" />
+      <workItem from="1602163939065" duration="2346000" />
+      <workItem from="1602228458875" duration="8495000" />
+      <workItem from="1602294222554" duration="596000" />
+      <workItem from="1602404602557" duration="4413000" />
+      <workItem from="1602417877219" duration="4439000" />
+      <workItem from="1602465926800" duration="6794000" />
+      <workItem from="1602499613156" duration="104000" />
+      <workItem from="1602553128496" duration="16130000" />
+      <workItem from="1602641535806" duration="2646000" />
+      <workItem from="1602752496276" duration="7878000" />
+      <workItem from="1602815565175" duration="4732000" />
+      <workItem from="1602837961614" duration="621000" />
+      <workItem from="1602899952629" duration="1035000" />
+      <workItem from="1602922516667" duration="3689000" />
+      <workItem from="1602934952467" duration="482000" />
+      <workItem from="1603007520484" duration="1471000" />
+      <workItem from="1603072352431" duration="2792000" />
+      <workItem from="1603098957658" duration="1191000" />
+      <workItem from="1603156216444" duration="2937000" />
+      <workItem from="1603284128203" duration="3649000" />
+      <workItem from="1603331886843" duration="6057000" />
+      <workItem from="1603417928744" duration="4183000" />
+      <workItem from="1603765532806" duration="829000" />
+      <workItem from="1603769907470" duration="6375000" />
+      <workItem from="1603849554197" duration="5112000" />
+      <workItem from="1603930883863" duration="8738000" />
     </task>
     <task id="LOCAL-00001" summary="commit previous code">
       <created>1586575603171</created>
@@ -606,58 +665,64 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1792" y="113" key="#Inspections" timestamp="1602231248359">
+      <screen x="1366" y="0" width="1600" height="870" />
+    </state>
+    <state x="1792" y="113" key="#Inspections/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602231248359" />
     <state x="1557" y="0" key="#Project_Structure" timestamp="1601037025768">
       <screen x="1366" y="0" width="1600" height="870" />
     </state>
     <state x="1557" y="0" key="#Project_Structure/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601037025768" />
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593246358699" />
     <state x="160" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600405645323">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1593231015519" />
     <state x="160" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1600405645323" />
-    <state x="572" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1600663744174">
+    <state x="572" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1603943420799">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593248774041" />
-    <state x="572" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1600663744174" />
+    <state x="1938" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602773644440" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1602605303683" />
+    <state x="572" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1603943420799" />
     <state x="459" y="262" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596871988808">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="459" y="262" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1596871988808" />
-    <state x="1994" y="162" key="FileChooserDialogImpl" timestamp="1601109266474">
+    <state width="406" height="466" key="DebuggerActiveHint" timestamp="1603422360128">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="406" height="466" key="DebuggerActiveHint/0.0.1600.870@0.0.1600.870" timestamp="1603422360128" />
+    <state x="1994" y="162" key="FileChooserDialogImpl" timestamp="1602595519124">
       <screen x="1366" y="0" width="1600" height="870" />
     </state>
-    <state x="1994" y="162" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601109266474" />
-    <state x="536" y="137" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593244778687" />
-    <state width="1557" height="158" key="GridCell.Tab.0.bottom" timestamp="1601350297270">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="1994" y="162" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602595519124" />
+    <state width="1323" height="135" key="GridCell.Tab.0.bottom" timestamp="1603878991391">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601039638219" />
-    <state width="1557" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601170293105" />
-    <state width="1323" height="131" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601013576329" />
-    <state width="1557" height="158" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1601350297270" />
-    <state width="1557" height="158" key="GridCell.Tab.0.center" timestamp="1601350297270">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state width="1323" height="135" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1603878991391" />
+    <state width="1557" height="226" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602831583719" />
+    <state width="1323" height="35" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603791942039" />
+    <state width="1557" height="135" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1603869311482" />
+    <state width="1323" height="135" key="GridCell.Tab.0.center" timestamp="1603878991391">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601039638219" />
-    <state width="1557" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601170293105" />
-    <state width="1323" height="131" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601013576328" />
-    <state width="1557" height="158" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1601350297270" />
-    <state width="1557" height="158" key="GridCell.Tab.0.left" timestamp="1601350297270">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state width="1323" height="135" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1603878991391" />
+    <state width="1557" height="226" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602831583719" />
+    <state width="1323" height="35" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603791942039" />
+    <state width="1557" height="135" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1603869311482" />
+    <state width="1323" height="135" key="GridCell.Tab.0.left" timestamp="1603878991391">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601039638219" />
-    <state width="1557" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601170293103" />
-    <state width="1323" height="131" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601013576326" />
-    <state width="1557" height="158" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1601350297270" />
-    <state width="1557" height="158" key="GridCell.Tab.0.right" timestamp="1601350297270">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state width="1323" height="135" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1603878991391" />
+    <state width="1557" height="226" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602831583719" />
+    <state width="1323" height="35" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603791942039" />
+    <state width="1557" height="135" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1603869311482" />
+    <state width="1323" height="135" key="GridCell.Tab.0.right" timestamp="1603878991391">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601039638219" />
-    <state width="1557" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601170293105" />
-    <state width="1323" height="131" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601013576328" />
-    <state width="1557" height="158" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1601350297270" />
+    <state width="1323" height="135" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1603878991391" />
+    <state width="1557" height="226" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602831583719" />
+    <state width="1323" height="35" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603791942039" />
+    <state width="1557" height="135" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1603869311482" />
     <state width="1557" height="186" key="GridCell.Tab.1.bottom" timestamp="1601042084633">
       <screen x="1366" y="0" width="1600" height="870" />
     </state>
@@ -682,65 +747,50 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="254" y="112" width="858" height="439" key="Registry/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601037959130" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1601037744726">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="216" y="0" key="SettingsEditor" timestamp="1603849785621">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601037744726" />
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599802485027" />
-    <state x="216" y="0" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1600405586798" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1603779896221" />
+    <state x="216" y="0" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1603849785621" />
+    <state x="1960" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602773647460">
+      <screen x="1366" y="0" width="1600" height="870" />
+    </state>
+    <state x="1960" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602773647460" />
+    <state width="819" height="475" key="documentation.popup.size" timestamp="1602165096519">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="819" height="475" key="documentation.popup.size/0.0.1600.870@0.0.1600.870" timestamp="1602165096519" />
+    <state width="817" height="473" key="javadoc.popup.new" timestamp="1602160031932">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="817" height="473" key="javadoc.popup.new/0.0.1600.870@0.0.1600.870" timestamp="1602160031932" />
     <state x="57" y="0" key="new project wizard" timestamp="1601204173589">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1601038220101" />
     <state x="1433" y="0" key="new project wizard/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601036792050" />
     <state x="57" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1601204173589" />
-    <state x="1763" y="195" key="run.anything.popup" timestamp="1601094983216">
+    <state x="1763" y="195" key="run.anything.popup" timestamp="1602823871208">
       <screen x="1366" y="0" width="1600" height="870" />
     </state>
-    <state x="1763" y="195" key="run.anything.popup/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1601094983216" />
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1593161486354" />
-    <state x="397" y="195" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1600663345100" />
-    <state x="405" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1601348335041">
+    <state x="1763" y="195" key="run.anything.popup/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602823871208" />
+    <state x="397" y="195" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1602152852981" />
+    <state x="405" y="70" width="788" height="800" key="search.everywhere.popup" timestamp="1603942916713">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599911448338" />
-    <state x="405" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1601348335041" />
+    <state x="346" y="59" width="673" height="679" key="search.everywhere.popup/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1603874183904" />
+    <state x="1771" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1366.738/1366.0.1600.870@1366.0.1600.870" timestamp="1602771723120" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1603791033376" />
+    <state x="405" y="70" width="788" height="800" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1603942916713" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Ali_Test.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/PalindromeList.java</url>
+          <line>66</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/ReBuildBT.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/swordoffer/Path_InMatrix.java</url>
-          <line>160</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/others/KMP.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/MedianFinder.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/Queue_to_Stack_225.java</url>
-          <line>31</line>
-          <properties class="algorithm.leetcode.Queue_to_Stack_225" method="push">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

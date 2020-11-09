@@ -3,7 +3,6 @@ package test;
 import org.junit.Test;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -16,7 +15,41 @@ import java.util.regex.MatchResult;
  * @Date 2020/3/19 18:21
  * @Version 1.0
  **/
-public class DeepClone {
+public class DeepClone implements Serializable {
+    int a = 1;
+    String s = "s";
+    A o = new A(2);
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        Object tmp = super.clone();
+        DeepClone deep = (DeepClone) tmp;
+        return deep;
+    }
+
+    class A implements Serializable {
+        int a;
+
+        public A(int a) {
+            this.a = a;
+        }
+
+        @Override
+        public String toString() {
+            return "A{" +
+                    "a=" + a +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "DeepClone{" +
+                "a=" + a +
+                ", s='" + s + '\'' +
+                ", o=" + o +
+                '}';
+    }
 
     /**
      * 深拷贝
@@ -54,6 +87,18 @@ public class DeepClone {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Test
+    public void t() throws CloneNotSupportedException {
+        DeepClone d = new DeepClone();
+        System.out.println(d);
+        DeepClone o = (DeepClone) d.deepClone();
+        System.out.println(o);
+        o.a = 3;
+        o.o.a = 6;
+        System.out.println(d);
+        System.out.println(o);
     }
 
     @Test

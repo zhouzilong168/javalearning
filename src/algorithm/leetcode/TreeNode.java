@@ -10,17 +10,15 @@ import java.util.LinkedList;
  * @Date 2020/9/10 17:52
  * @Version 1.0
  **/
-public class BSTK {
+public class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-}
+    public TreeNode() {
+    }
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
+    public TreeNode(int x) {
         val = x;
     }
 }
@@ -45,11 +43,12 @@ class Solution {
                 }
             }
         }
-        for (int i = 0; i < k-1; i++) {
+        for (int i = 0; i < k - 1; i++) {
             resStack.pop();
         }
         return resStack.element();
     }
+
     public int kthLargest_dfs(TreeNode root, int k) {
         Deque<TreeNode> stack = new LinkedList<>();
         Deque<Integer> resStack = new LinkedList<>();
@@ -69,7 +68,7 @@ class Solution {
                 }
             }
         }
-        for (int i = 0; i < k-1; i++) {
+        for (int i = 0; i < k - 1; i++) {
             resStack.pop();
         }
         return resStack.element();

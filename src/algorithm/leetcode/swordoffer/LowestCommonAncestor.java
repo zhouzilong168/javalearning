@@ -21,6 +21,19 @@ public class LowestCommonAncestor {
         }
     }
 
+    /**
+     * 最近公共祖先
+     * 当root等于p或者q的时候直接返回返回对应的节点，同时由于非空直接向上返回
+     * 当递归查找左右子树的时候，返回的最近公共祖先节点有空，则返回对应非空节点，
+     * 左右都非空的时候则返回对应的root
+     *
+     * 注：由于递归是由上往下递归，返回则是由下往上的，所以递归返回的出来的就是
+     *      最下的，也就是最近的公共祖先
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q) return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);

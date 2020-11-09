@@ -19,9 +19,7 @@ public class MedianFinder {
     public MedianFinder() {
         size = 0;
         minHeap = new PriorityQueue<>();
-        maxHeap = new PriorityQueue<>((a, b) -> {
-            return b - a;
-        });
+        maxHeap = new PriorityQueue<>((a, b) -> b - a);
     }
 
     public void addNum(int num) {
@@ -56,5 +54,21 @@ public class MedianFinder {
         System.out.println(mf.findMedian());
         mf.addNum(3);
         System.out.println(mf.findMedian());
+        Object[][] arr = {
+                {new Object(),1,mf},
+                {new Object(), new Object()}
+        };
+        int[][] arri = {
+                {1,},
+                {3, 4}
+        };
+        System.out.println();
+        System.out.println(arr.length);
+        System.out.println(arr[0].length);
+        System.out.println(arr[1].length);
+
+        System.out.println(arri.length);
+        System.out.println(arri[0].length);
+        System.out.println(arri[1].length);
     }
 }

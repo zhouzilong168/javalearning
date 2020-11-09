@@ -1,5 +1,7 @@
 package datastructure;
 
+import algorithm.leetcode.TreeNode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -162,7 +164,6 @@ public class Traversal<T> {
             System.out.print(root.getData() + " ");
             root = root.getRight(); // 访问右节点右子树
         }
-
     }
 
     public void postOrderRecursion(BinaryTree root) {
@@ -172,6 +173,26 @@ public class Traversal<T> {
         postOrderRecursion(root.getLeft());
         postOrderRecursion(root.getRight());
         System.out.print(root.getData() + " ");
+    }
+
+    public void postOrderNoRecursion(TreeNode root) {
+        LinkedList<TreeNode> stack = new LinkedList<>();
+        while (root != null || !stack.isEmpty()) {
+            if (root != null) {
+                stack.push(root);
+                root = root.left;
+            } else { // 直接找到最左节点 找右节点访问右子树 右节点为空 直接访问 再判断是否为栈顶节点右节点
+                root = stack.peek().right;
+                if (root == null) {
+                    TreeNode tmp = stack.pop();
+                    System.out.print(tmp.val + " ");
+                    while (!stack.isEmpty() && tmp == stack.peek().right) {
+                        tmp = stack.pop();
+                        System.out.print(tmp.val + " ");
+                    }
+                }
+            }
+        }
     }
 
     public void postOrderNonRecursion(BinaryTree root) {
